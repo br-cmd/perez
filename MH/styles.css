@@ -523,3 +523,12 @@ footer__links{
 .website__rights{
     color: #fff;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+[class*="col-"] {
+  width: 100%;
+}
